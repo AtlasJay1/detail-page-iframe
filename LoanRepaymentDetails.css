@@ -1,0 +1,99 @@
+.january-23,
+.loan-repayment-info {
+  position: relative;
+  text-transform: capitalize;
+}
+.loan-repayment-info {
+  align-self: stretch;
+  line-height: 120%;
+  z-index: 0;
+}
+.january-23 {
+  line-height: 137.5%;
+}
+.repayment-200-aud {
+  margin-block-start: 0;
+  margin-block-end: 14px;
+}
+.first-repayment {
+  margin: 0;
+}
+.repayment-200-aud-container {
+  position: relative;
+  font-size: 14px;
+  line-height: 137.5%;
+  text-transform: capitalize;
+  font-family: Roboto;
+  color: #163b54;
+}
+.january-23-parent {
+  flex-direction: column;
+}
+.frame-wrapper,
+.january-23-parent,
+.march-23-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #f3f0ed;
+  flex-direction: row;
+  padding: 10px;
+}
+.march-23-parent {
+  flex: 1;
+  flex-direction: column;
+}
+.repayment-100-aud-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 137.5%;
+  text-transform: capitalize;
+  font-family: Roboto;
+  color: #163b54;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  z-index: 1;
+  font-size: 16px;
+  color: #e4761e;
+}
+.icontrailing-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 20px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.loan-repayment-details {
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: 22px;
+  color: #163b54;
+  font-family: "Open Sans";
+}
